@@ -94,21 +94,21 @@ section {
     }
 
 
+    h2,
+    p {
+        z-index: 3;
+        position: relative;
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 0 auto;
+        padding: 5px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
 }
 
-h2,
-p {
-    z-index: 3;
-    position: relative;
-    background-color: #fff;
-    border-radius: 10px;
-    margin: 0 auto;
-    padding: 5px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
 
 button {
     display: flex;
