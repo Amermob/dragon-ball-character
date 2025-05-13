@@ -4,7 +4,7 @@ import axios from "axios";
 export default function DragonBall() {
   const [names, setNames] = useState([]);
   let [count, setCount] = useState(1);
-  count > 5 && setCount((count = 1));
+  count > 5 && setCount(0);
 
   useEffect(() => {
     axios
