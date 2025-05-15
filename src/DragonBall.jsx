@@ -56,7 +56,7 @@ export default function DragonBall() {
       </header>
       <div className="main">
         <section>{names}</section>
-        <button onClick={btn}>Next Page</button>
+        <button onClick={btn}>Page {count}/6</button>
       </div>
     </>
   );
