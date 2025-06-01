@@ -75,7 +75,7 @@ export default function DragonBall() {
       <header>
         <div className="logo">
           <img
-            src="/dragon-ball-character/public/imgs/vegeta-header.png"
+            src="imgs/vegeta-header.png"
             alt="vegeta-as-al-ogo"
           />
           <p>Dragon ball</p>
