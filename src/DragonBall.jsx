@@ -54,7 +54,7 @@ export default function DragonBall() {
 
           img.className = "error";
           img.src =
-            "/dragon-ball-character/public/imgs/vegeta-under-the-rain.gif";
+            "imgs/vegeta-under-the-rain.gif";
           document.body.appendChild(img);
           document.body.appendChild(text);
           text.appendChild(a)
