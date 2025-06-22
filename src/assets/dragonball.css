@@ -55,6 +55,7 @@ section {
     text-align: center;
 
     img {
+        width: fit-content;
         height: 300px;
         object-fit: cover;
         transition: 0.3s;
