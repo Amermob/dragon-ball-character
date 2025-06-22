@@ -17,7 +17,7 @@ export default function DragonBall() {
             data.items.map((item) => {
               return (
                 <div key={item.id} className="character">
-                  <img src={item.image} />
+                  <img src={item.image} alt={item.name}/>
                   <h2>
                     Name: <span>{item.name}</span>
                   </h2>
